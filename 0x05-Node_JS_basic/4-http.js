@@ -1,7 +1,7 @@
 const http = require('http');
 
-const PORT = 1245
-const HOST = 'localhost'
+const PORT = 1245;
+const HOST = 'localhost';
 // Create the HTTP server
 const app = http.createServer((req, res) => {
   // Set the response headers
