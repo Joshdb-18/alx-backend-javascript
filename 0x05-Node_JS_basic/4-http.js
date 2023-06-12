@@ -6,7 +6,7 @@ const app = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
 
   // Set the response body
-  res.write('Hello Holberton School!\n');
+  res.write('Hello Holberton School!');
 
   // End the response
   res.end();
