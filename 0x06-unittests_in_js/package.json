@@ -4,7 +4,7 @@
   "description": "Basic test with Mocha and Node assertion library",
   "main": "0-calcul.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node ./node_modules/mocha/bin/mocha"
   },
   "author": "Joshua",
   "license": "ISC",
